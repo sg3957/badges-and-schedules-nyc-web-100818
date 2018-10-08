@@ -48,7 +48,7 @@ end
 
 def printer
   counter1 = 0
-  badges = batch_badge_creator
+  badges = batch_badge_creator(names)
   while counter1 < badges.length
     puts "#{badges[counter1]}"
     counter1 += 1
