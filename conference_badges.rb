@@ -22,14 +22,14 @@ end
 
 
 
-def printer(attendees)
-    attendees.each do |x|
-    puts batch_badge_creator(x)
-  end
-    attendees.each do |x|
-    puts assign_rooms(x)
-  end
-end
+# def printer(attendees)
+#     attendees.each do |x|
+#     puts batch_badge_creator(x)
+#   end
+#     attendees.each do |x|
+#     puts assign_rooms(x)
+#   end
+# end
 
 # def printer(names)
 #   count = 0 
